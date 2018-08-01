@@ -13,7 +13,7 @@ cmake \
     -D TPL_INSTALL_DIR=${VERA_TPL_INSTALL_DIR} \
     -D VERA_ENABLE_ALL_PACKAGES=ON \
     -D VERA_ENABLE_TESTS=ON \
-    -D VERA_CONFIGURE_OPTIONS_FILE=${VERA_DIR}/cmake/std/gcc-4.8.3/vera-tpls-std.cmake \
+    -D VERA_CONFIGURE_OPTIONS_FILE=${VERA_DIR}/cmake/std/gcc-5.4.0/vera-tpls-std.cmake \
     -D MPI_EXEC=/usr/bin/mpiexec.mpich \
     ${EXTRA_ARGS} \
     ${VERA_DIR}
