@@ -57,7 +57,7 @@ IF ( CMAKE_BUILD_QT )
     ENDIF()
 
     IF( USING_GCC )
-        SET( CONFIGURE_OPTIONS ${CONFIGURE_OPTIONS} -platform linux-g++ )
+        SET( CONFIGURE_OPTIONS ${CONFIGURE_OPTIONS} -platform linux-g++-64 )
     ELSEIF( (${CMAKE_C_COMPILER_ID} MATCHES "Intel") OR (${CMAKE_CXX_COMPILER_ID} MATCHES "Intel") ) 
         SET( CONFIGURE_OPTIONS ${CONFIGURE_OPTIONS} -platform linux-icc )
     ELSE()
